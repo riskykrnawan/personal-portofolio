@@ -61,14 +61,19 @@ table {
 .clear {
     clear: both;
 }
-
+.left-25 {
+    left: 25%;
+}
+.front {
+    z-index: 9999999;
+}
 
 /* Navigation */
 .nav-item{
     z-index: 999;
     font-family: 'Ephesis', cursive;
     margin-left: 50px;
-    margin-top: 50px;
+    margin-top: 30px;
     letter-spacing: 2px;
 }
 
@@ -134,7 +139,7 @@ a.effect-underline:hover:after {
 }
 .header-2{
     font-family: 'Bonheur Royale', cursive;
-    padding-top: 200px;
+    padding-top: 230px;
     font-size: 53px;
     letter-spacing: 3px;
     text-align: center;
@@ -154,14 +159,10 @@ a.effect-underline:hover:after {
 
 /* background-image */
 .bg-1{
-    background-image: url('../images/bg-1.jpg');
+    /* background-image: url('../images/bg-1.jpg'); */
+    background-color: #303841;
     background-size: cover;
     max-height: 100vh;
-    background-attachment: fixed;
-}
-.bg-2{
-    background-image: url('../images/bg-1.jpg');
-    background-size: cover;
     background-attachment: fixed;
 }
 /* end background-image */
@@ -183,7 +184,7 @@ a.effect-underline:hover:after {
 
 /* Middle-container-1 */
 .middle-container{
-    background-color: #25242C;
+    background-color: #303841;
 }
 .img-container{
     text-align: center;
@@ -215,6 +216,9 @@ a.effect-underline:hover:after {
 /* End Middle-container-1 */
 
 /* Middle-container-2 */
+.middle-container-2 {
+    background-color: #303841;
+}
 .img-portfolio {
     width: 370px;
     height: 200px;
@@ -225,7 +229,7 @@ a.effect-underline:hover:after {
 /* Middle-container-3 */
 .middle-container-3{
     padding: 100px;
-    background-color: #25242C;
+    background-color: #303841;
 }
 .middle-container-3 p{
     font-size: 16px;
@@ -252,7 +256,7 @@ a.effect-underline:hover:after {
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background-color: #25242C;
+    background-color: #303841;
     color: white;
     padding: 10px 100px;
     
@@ -291,6 +295,7 @@ a.effect-underline:hover:after {
 /* End Middle-container-3 */
 
 .bottom-container{
+    background-color: #303841;
     font-family: 'Poppins', sans-serif;
     padding: 100px;
 }
@@ -338,7 +343,6 @@ footer p{
     }
     .header-3{
         font-size: 25px;
-        color: #00FFF5;
         transform: rotate(0);
         text-align: center;
     }
